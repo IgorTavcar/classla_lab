@@ -1,0 +1,4 @@
+,platform,platform-release,architecture,hostname,processor,ram-gb,cpu-count,tag,bm-version,classla-v,obeliks-v,torch-v,accelerator,ts,func,execution-time,sentences,lemmas,count
+0,Darwin,20.5.0,x86_64,solaris,i386,32,12,lem-classla_quick-classla_idl_quick-spacy_quick_trf,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624076749,bm_classla_lemmas_500_sl,77.848062944,1354,7049,500
+1,Darwin,20.5.0,x86_64,solaris,i386,32,12,lem-classla_quick-classla_idl_quick-spacy_quick_trf,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624076828,bm_classla_identity_lemmas_500_sl,1.1566071299999976,1354,1837,500
+2,Darwin,20.5.0,x86_64,solaris,i386,32,12,lem-classla_quick-classla_idl_quick-spacy_quick_trf,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624076830,bm_spacy_lemmas_500_en_trf,90.672022464,1335,4051,500

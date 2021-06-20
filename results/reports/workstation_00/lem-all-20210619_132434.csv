@@ -1,0 +1,9 @@
+,platform,platform-release,architecture,hostname,processor,ram-gb,cpu-count,tag,bm-version,classla-v,obeliks-v,torch-v,accelerator,ts,func,execution-time,sentences,lemmas,count
+0,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624101874,bm_classla_lemmas_sl,370.48399203800363,13699,71147,5245
+1,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102246,bm_classla_identity_lemmas_sl,10.472750893968623,13699,18777,5245
+2,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102257,bm_classla_identity_lemmas_500_sl,0.968799804977607,1354,1837,500
+3,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102259,bm_classla_lemmas_500_sl,39.67667394503951,1354,7049,500
+4,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102300,bm_spacy_lemmas_en,8.024957701039966,14621,38948,5243
+5,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102309,bm_spacy_lemmas_500_en,1.7107700280030258,1414,4151,500
+6,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102311,bm_spacy_lemmas_500_en_trf,3.1176446540048346,1335,4051,500
+7,Linux,5.8.0-55-generic,x86_64,hal00,x86_64,126,64,lem-all,1.0,1.0.1,1.0.5,1.8.1,cuda[NVIDIA TITAN RTX],1624102316,bm_spacy_lemmas_en_trf,21.747544205049053,13687,38006,5243

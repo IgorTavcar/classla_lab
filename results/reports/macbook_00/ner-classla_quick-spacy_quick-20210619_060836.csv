@@ -1,0 +1,3 @@
+,platform,platform-release,architecture,hostname,processor,ram-gb,cpu-count,tag,bm-version,classla-v,obeliks-v,torch-v,accelerator,ts,func,execution-time,sentences,ne,count
+0,Darwin,20.5.0,x86_64,solaris,i386,32,12,ner-classla_quick-spacy_quick,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075716,bm_classla_ner_1000_sl,10.612362733,2676,1374,1000
+1,Darwin,20.5.0,x86_64,solaris,i386,32,12,ner-classla_quick-spacy_quick,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075728,bm_spacy_ner_1000_en,4.569407021000002,2830,1755,1000

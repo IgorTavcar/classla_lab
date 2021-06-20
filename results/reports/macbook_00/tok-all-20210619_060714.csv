@@ -1,0 +1,8 @@
+,platform,platform-release,architecture,hostname,processor,ram-gb,cpu-count,tag,bm-version,classla-v,obeliks-v,torch-v,accelerator,ts,func,execution-time,sentences
+0,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075634,bm_sentences_classla_obeliks_sl,10.308994245,13699
+1,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075646,bm_sentences_classla_obeliks_batched_sl,11.328227187999998,13699
+2,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075658,bm_sentences_classla_obeliks_joined_sl,3.8112807539999984,13589
+3,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075663,bm_sentences_classla_reldi_sl,1.7831360990000036,13258
+4,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075666,bm_sentences_spacy_en,9.386897912999999,14621
+5,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075676,bm_sentences_spacy_fast_en,1.8546447000000015,14052
+6,Darwin,20.5.0,x86_64,solaris,i386,32,12,tok-all,1.0,1.0.1,1.0.5,1.8.1,cpu[no-cuda-available],1624075679,bm_sentences_spacy_3cpu_en,14.333942426999997,14621
