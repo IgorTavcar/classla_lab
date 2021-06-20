@@ -12,8 +12,8 @@ The resulting observations are discussed at the end of this doc.
 ```bash
 
 # install project
-git clone https://github.com/IgorTavcar/classla_benchmarks
-cd classla_benchmarks
+git clone https://github.com/IgorTavcar/classla_lab
+cd classla_lab
 python3 -m venv env
 source env/bin/activate
 python3 -m pip install -r requirements.txt 
@@ -96,22 +96,22 @@ be better if the rules are loaded and cached during the initialization phase of 
 
 #### Comments
 
-[bm_sentences_classla_obeliks_joined_sl()](https://github.com/IgorTavcar/classla_benchmarks/blob/b442693d1bf2e7ed49dc4a84e6665e6279fc8e9f/benchmarks/bm_tok.py#L24)
+[bm_sentences_classla_obeliks_joined_sl()](https://github.com/IgorTavcar/classla_lab/blob/1dfe45cfc4b8040a9df5ca971a50332431e288e8/benchmarks/bm_tok.py#L24)
 
 This benchmark shows the speed of the obeliks tokenizer that would be (approximately) achieved, if the hotspot problem
 was fixed.
 
-[bm_sentences_classla_obeliks_batched_sl()](https://github.com/IgorTavcar/classla_benchmarks/blob/b442693d1bf2e7ed49dc4a84e6665e6279fc8e9f/benchmarks/bm_tok.py#L34)
+[bm_sentences_classla_obeliks_batched_sl()](https://github.com/IgorTavcar/classla_lab/blob/1dfe45cfc4b8040a9df5ca971a50332431e288e8/benchmarks/bm_tok.py#L34)
 
 This benchmark is based on the naive assumption that batching is supported by the classla pipeline. But - the tokenizer
 processor does not support list-of-strings input, so in this experiment the lines are joined by 'new-line' separators.
 This approach does not improve the speed of processing ...
 
-[bm_sentences_classla_reldi_sl()](https://github.com/IgorTavcar/classla_benchmarks/blob/b442693d1bf2e7ed49dc4a84e6665e6279fc8e9f/benchmarks/bm_tok.py#L48)
+[bm_sentences_classla_reldi_sl()](https://github.com/IgorTavcar/classla_lab/blob/1dfe45cfc4b8040a9df5ca971a50332431e288e8/benchmarks/bm_tok.py#L46)
 
 Reldi tokenizer is much faster than obeliks. The difference in the number of sentences (between the two) is in the range of a few percent.
 
-[bm_sentences_classla_multi_docs_sl()](https://github.com/IgorTavcar/classla_benchmarks/blob/6c1566ad8a5fbcbf5ce7ce208e5b69004b84e1b1/benchmarks/bm_tok.py#L56)
+[bm_sentences_classla_multi_docs_sl()](https://github.com/IgorTavcar/classla_lab/blob/1dfe45cfc4b8040a9df5ca971a50332431e288e8/benchmarks/bm_tok.py#L56)
 
 This invocation will raise for classla versions <= 1.0.1.; multi-docs is a feature of stanza v1.2., but is not implemented in classla~=1.0.1..
 
@@ -136,7 +136,7 @@ RNN acceleration is no joke. RNN computations involve intra/er/-state dependenci
 ![Screenshot](images/classla_cuda_gpu_load.png)
 The maximum GPU load was around 37% (for classla pipelines).
 
-## Discussion topics
+## Discussion
 
 * LM processors based on `transformers` backbone
 * Transfer of `classla` models to `spacy` ecosystem
