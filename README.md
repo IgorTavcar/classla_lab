@@ -126,7 +126,7 @@ The classla processor pipeline lacks:
 
 ### POS, NER, LEMMA processors
 
-Classla LM processors are based on models with `LSTM` seq2seq architecture. The accuracy of these models is generally better than the accuracy of statistical models, but nevertheless a NLP revolution called **transformers** has occurred in the last 2 years ...
+These processors are based on the `LSTM` seq2seq architecture. The accuracy of these models is much better than that of statistical models, but even so, a **transformer** revolution currently rules the world (for so many ML tasks) ...
 
 
 #### Acceleration 
