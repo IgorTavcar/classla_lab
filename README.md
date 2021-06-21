@@ -138,7 +138,7 @@ The maximum GPU load was around 37% (for classla pipelines).
 
 ## Discussion
 
-* LM processors based on `transformers` backbone
-* Transfer of `classla` models to `spacy` ecosystem
+* introduction of `transformers` backbone
+* transfer of `classla` models to `spacy` and `huggingface` eco-systems
 
 
