@@ -11,7 +11,7 @@ import torch
 from measure import close_report
 from measure import open_report
 
-__VERSION__ = "1.0"
+__VERSION__ = "1.0.1"
 
 LOG = logging.getLogger('bm')
 
